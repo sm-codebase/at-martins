@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import React from 'react';
-import Products from './Products';
 import PrImg1 from '../public/assets/pr-img-1.png'
 import ProductsImg from './ProductsImg';
 

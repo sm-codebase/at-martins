@@ -5,9 +5,9 @@
 html,
 body {
   scroll-behavior: smooth;
-  font-family: "Bree Serif", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .custom-img {
-  background-image: url(../public/assets/background.svg);
+  background-image: url(../public/assets/background.jpg);
 }

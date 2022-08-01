@@ -1,11 +1,12 @@
 import Link from 'next/link'
 import React, {useState, useEffect} from 'react'
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
+import Logo from '../public/logo.svg'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
     const [color, setColor] = useState('transparent')
-    const [textColor, setTextColor] = useState('red')
+    const [textColor, setTextColor] = useState('Blue-400')
 
     const handleNav = () => {
         setNav(!nav)
@@ -18,7 +19,7 @@ const Navbar = () => {
                 setTextColor('#000000');
             } else {
                 setColor('transparent');
-                setTextColor('#000000');
+                setTextColor('#FFFFFF');
             }
         };
         window.addEventListener('scroll', changeColor);
@@ -28,22 +29,20 @@ const Navbar = () => {
 
   return (
     <div style={{backgroundColor: `${color}`}}className='fixed left-0 top-0 w-full z-10 ease-in duration-300'>
-        <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-red-600'>
+        <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-blue-600'>
             <Link href='/'>
-            <h1 style={{color: `${textColor}`}} className='font-bold text-4xl'>Rubi</h1>
+            
+            <h1 style={{color: `${textColor}`}} className='font-bold text-4xl'>AT Martins</h1>
             </Link>
                 <ul style={{color: `${textColor}`}} className='hidden sm:flex'>
                     <li className='p-4'>
                         <Link href='/'>Home</Link>
                     </li>
                     <li className='p-4'>
-                        <Link href='/#focus'>Nosso Foco</Link>
+                        <Link href='/#focus'>Nossos Serviços</Link>
                     </li>
                     <li className='p-4'>
-                        <Link href='/facilities'>Facilidades</Link>
-                    </li>
-                    <li className='p-4'>
-                        <Link href='https://www.rubihospitalar.com.br'>Loja Online</Link>
+                        <Link href='/facilities'>Portfolio</Link>
                     </li>
                     <li className='p-4'>
                         <Link href='/contact'>Contatos</Link>
@@ -61,13 +60,10 @@ const Navbar = () => {
                             <Link href='/'>Home</Link>
                         </li>
                         <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-                            <Link href='/#focus'>Nosso Foco</Link>
+                            <Link href='/#focus'>Nossos Serviços</Link>
                         </li>
                         <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-                            <Link href='/facilities'>Facilidades</Link>
-                        </li>
-                        <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-                            <Link href='/store'>Loja Online</Link>
+                            <Link href='/facilities'>Portfolio</Link>
                         </li>
                         <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
                             <Link href='/contact'>Contatos</Link>

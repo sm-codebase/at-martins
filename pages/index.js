@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import Hero from "../components/Hero";
 import Instagram from "../components/Instagram";
 import Slider from "../components/Slider";
@@ -9,10 +8,10 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Rubi Hospitalar</title>
+        <title>AT Martins</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Hero heading='Bem vindo a Rubi!' message='Conheça nossos produtos'/>
+      <Hero heading='Bem vindo a AT Matins!' message='Conheça nossos serviços'/>
       <Slider slides={SliderData} />
       <Instagram />
     </div>
