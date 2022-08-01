@@ -56,6 +56,7 @@ const Slider = ({ slides }) => {
         );
     })}
     </div>
+    <h2 className='text-center'>Experiencia a serviço da sua empresa</h2>
     </div>
   );
 };

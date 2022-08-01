@@ -11,7 +11,7 @@ export default function Home() {
         <title>AT Martins</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Hero heading='Bem vindo a AT Matins!' message='Conheça nossos serviços'/>
+      <Hero heading='Bem vindo a AT Martins!' message='Conheça nossos serviços'/>
       <Slider slides={SliderData} />
       <Instagram />
     </div>
