@@ -1,19 +1,24 @@
-import Head from "next/head";
-import Hero from "../components/Hero";
-import Instagram from "../components/Instagram";
-import Slider from "../components/Slider";
-import { SliderData } from "../components/SliderData";
+import Head from 'next/head'
+import About from '../components/About'
+import Contact from '../components/Contact'
+import Main from '../components/Main'
+import Projects from '../components/Projects'
+import Skills from '../components/Skills'
+
 
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>AT Martins</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>AT Martins | Caldeiraria</title>
+        <meta name="description" content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences." />
+        <link rel="icon" href="/fav.png" />
       </Head>
-      <Hero heading='Bem vindo a AT Martins!' message='Conheça nossos serviços'/>
-      <Slider slides={SliderData} />
-      <Instagram />
+    <Main />
+    <About />
+    <Skills />
+    <Projects />
+    <Contact />
     </div>
-  );
+  )
 }
