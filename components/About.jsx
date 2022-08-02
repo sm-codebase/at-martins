@@ -11,19 +11,24 @@ const About = () => {
           <p className='uppercase text-xl tracking-widest text-[#001E47]'>
             Quem Somos
           </p>
-          <h2 className='py-4'>Lorem ipsum dolor sit amet</h2>
+          <h2 className='py-4'>NOSSAS SOLUÇÕES SÃO EXCLUSIVAMENTE DESENVOLVIDAS PARA CADA EMPRESA</h2>
           <p className='py-2 text-gray-600'>
-            Lorem ipsum dolor sit amet
+          Com serviços prestados para industrias de diversos segmentos
           </p>
           <p className='py-2 text-gray-600'>
-          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-          et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
-          ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          A prioridade da AT Martins é a saúde, segurança de seus
+          funcionários, valorizando a comunidade e principalmente o
+          meio ambiente. Sabemos que nosso compromisso com a
+          excelência vai além do simples cumprimento das normas legais,
+          mas em cumprir com esses pilares.
           </p>
           <p className='py-2 text-gray-600'>
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore 
-          eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-           in culpa qui officia deserunt mollit anim id est laborum.
+          Colaboradores capacitados
+          Mecânicos, soldadores, serralheiros, encanadores, caldeireiros, pintores.
+          Caldeiraria Industrial
+          Confecção de corrimão, escadas, mezaninos, estruturas, proteções.
+          Montagem e manutenção em sistemas hidráulicos pneumáticos
+          Manutenção corretivas ou preventivas.
           </p>
           <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
