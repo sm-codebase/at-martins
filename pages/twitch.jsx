@@ -17,15 +17,15 @@ const twitch = () => {
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Twitch UI</h2>
-          <h3>Next JS / Tailwind / Next Auth</h3>
+          <h2 className='py-2'>Exemplo de Serviço</h2>
+          <h3>Serviço realizado (LOCAL)</h3>
         </div>
       </div>
 
       <div className='max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 py-8'>
         <div className='col-span-4'>
-          <p>Project</p>
-          <h2>Overview</h2>
+          <p>Projeto</p>
+          <h2>Visão Geral</h2>
           <p>
             This appplication was built using NEXT.JS and is styled with
             Tailwind CSS. The application is hosted statically using Vercel.
