@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
-import { FaFacebook, FaGithub, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
+import { FaFacebook, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 
 const Main = () => {
   return (
@@ -13,7 +13,7 @@ const Main = () => {
           </h1>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <a
-              href='https://www.linkedin.com/in/clint-briley-50056920a/'
+              href='https://www.linkedin.com/company/86754587/'
               target='_blank'
               rel='noreferrer'
             >
@@ -22,7 +22,7 @@ const Main = () => {
               </div>
             </a>
             <a
-              href='https://github.com/fireclint'
+              href='https://www.facebook.com/AT-Martins-Caldeiraria-102271132578183/'
               target='_blank'
               rel='noreferrer'
             >
@@ -30,7 +30,7 @@ const Main = () => {
                 <FaFacebook />
               </div>
             </a>
-            <Link href='/#contact'>
+            <Link href='https://www.instagram.com/atmartinscaldeiraria/ '>
               <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <FaInstagram />
               </div>
