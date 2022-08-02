@@ -18,7 +18,7 @@ const Skills = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={Html} width='64px' height='64px' alt='/' />
+                <Image src={Html} width='32px' height='32px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>Experiência na área industrial</h3>
@@ -28,7 +28,7 @@ const Skills = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={Css} width='64px' height='64px' alt='/' />
+                <Image src={Css} width='32px' height='32px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>Com profissionais qualificados</h3>
@@ -38,7 +38,7 @@ const Skills = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={Javascript} width='64px' height='64px' alt='/' />
+                <Image src={Javascript} width='32px' height='32px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>Trabalhamos com maquinário de ponta</h3>
@@ -48,7 +48,7 @@ const Skills = () => {
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
               <div className='m-auto'>
-                <Image src={ReactImg} width='64px' height='64px' alt='/' />
+                <Image src={ReactImg} width='32px' height='32px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
                 <h3>Atendimento em todo território </h3>
