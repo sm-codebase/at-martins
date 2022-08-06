@@ -1,6 +1,5 @@
 import React from 'react';
-import Link from 'next/link';
-import { FaIndustry, IconName } from "react-icons/fa";
+
 
 
 const Skills = () => {
@@ -94,7 +93,7 @@ const Skills = () => {
               e normas especificas de cada setor ou segmento da empresa.
               </p>
               <a
-                href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=nnjs-index"
+                href=""
                 target="_blank"
                 className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150"
               >

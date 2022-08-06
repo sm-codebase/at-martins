@@ -1,7 +1,5 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiOutlineMail } from 'react-icons/ai';
-import { FaFacebook, FaInstagram, FaLinkedinIn } from 'react-icons/fa';
 import styles from "../styles/Featured.module.css";
 import Image from "next/image";
 import { useState } from "react";
