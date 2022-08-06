@@ -11,7 +11,7 @@ export default function Home() {
     <div>
       <Head>
         <title>AT Martins | Caldeiraria</title>
-        <meta name="description" content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences." />
+        <meta name="description" content="" />
         <link rel="icon" href="/fav.png" />
       </Head>
     <Main />

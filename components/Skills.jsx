@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image'
 
 
 
@@ -10,29 +11,30 @@ const Skills = () => {
               <div className="justify-center flex flex-wrap relative">
                 <div className="my-4 w-full lg:w-6/12 px-4">
                   <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/svelte/alerts/notus?ref=vtw-index"
+                    href=""
                     target="_blank"
                   >
                     <div className="bg-blue-900 shadow-lg rounded-lg text-center p-8">
-                      <img
-                        alt="..."
+                      <Image
+                        alt="Slide picture"
                         className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src='/../assets/skills/settings.png'
+                        src='/assets/skills/settings.png'
+                        width={50}
+                        height={50}
                       />
                       <p className="text-lg text-white mt-4 font-semibold">
                         Experiência na área industrial
                       </p>
                     </div>
                   </a>
-                  <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/react/alerts/notus?ref=vtw-index"
-                    target="_blank"
-                  >
+                  <a>
                     <div className="bg-blue-900 shadow-lg rounded-lg text-center p-8 mt-8">
-                      <img
-                        alt="..."
+                      <Image
+                        alt="Slider picture"
                         className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src='/../assets/skills/professional.png'
+                        src='/assets/skills/professional.png'
+                        width={50}
+                        height={50}
                       />
                       <p className="text-lg text-white mt-4 font-semibold">
                         Profissionais qualificados
@@ -42,29 +44,28 @@ const Skills = () => {
                 </div>
                 <div className="my-4 w-full lg:w-6/12 px-4 lg:mt-16">
                   <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/js/alerts/notus?ref=vtw-index"
-                    target="_blank"
                   >
                     <div className="bg-blue-900 shadow-lg rounded-lg text-center p-8">
-                      <img
-                        alt="..."
+                      <Image
+                        alt="Slider picture"
                         className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src='/../assets/skills/map.png'
+                        src='/assets/skills/map.png'
+                        width={50}
+                        height={50}
                       />
                       <p className="text-lg text-white mt-0 font-semibold">
                         Atendimento em todo o território nacional
                       </p>
                     </div>
                   </a>
-                  <a
-                    href="https://www.creative-tim.com/learning-lab/tailwind/vue/alerts/notus?ref=vtw-index"
-                    target="_blank"
-                  >
+                  <a>
                     <div className="bg-blue-900 shadow-lg rounded-lg text-center p-8 mt-8">
-                      <img
-                        alt="..."
+                      <Image
+                        alt="Slider picture"
                         className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src='/../assets/skills/welder.png'
+                        src='/assets/skills/welder.png'
+                        width={50}
+                        height={50}
                       />
                       <p className="text-lg text-white mt-4 font-semibold">
                         Maquinario de ponta
@@ -93,8 +94,6 @@ const Skills = () => {
               e normas especificas de cada setor ou segmento da empresa.
               </p>
               <a
-                href=""
-                target="_blank"
                 className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150"
               >
                 Nossos Projetos{" "}
