@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 // import { useRouter } from 'next/router';
 import NavLogo from '../public/assets/navLogo.svg'
@@ -66,6 +66,44 @@ const Navbar = () => {
             />
           </a>
         </Link>
+        <div>
+        <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
+                <a
+                  href='https://www.facebook.com/atmartinscaldeiraria'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                    <FaFacebook />
+                  </div>
+                </a>
+                <a
+                  href='https://www.instagram.com/atmartinscaldeiraria/'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                    <FaInstagram />
+                  </div>
+                </a>
+                <Link href='https://www.whatsapp.com/'>
+                  <div
+                    onClick={() => setNav(!nav)}
+                    className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
+                  >
+                    <FaWhatsapp />
+                  </div>
+                </Link>
+                <Link href='https://www.whatsapp.com/'>
+                  <div
+                    onClick={() => setNav(!nav)}
+                    className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'
+                  >
+                    <BsFillPersonLinesFill />
+                  </div>
+                </Link>
+              </div>
+        </div>
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
             <li className='ml-10 text-sm uppercase hover:border-b'>
