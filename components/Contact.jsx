@@ -30,14 +30,17 @@ const Contact = () => {
                 <h2 className='py-2'>Anderson</h2>
                 <p>Diretor</p>
                 <p className='py-4'>
-                 19 99664-6372
-                </p>
+                 19 99664-6372</p>
+                <h3 className='py-4'>comercial@atmartinscaldeiraria.com.br
+                </h3>
+                <p>Avenida Honorio Orlando Martini, 262</p>
+                <p>CEP-13848-005</p>
               </div>
               <div>
                 <p className='uppercase pt-8'>Nossas redes sociais</p>
                 <div className='flex items-center justify-between py-4'>
                   <a
-                    href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                    href='https://www.instagram.com/atmartinscaldeiraria/'
                     target='_blank'
                     rel='noreferrer'
                   >
@@ -46,7 +49,7 @@ const Contact = () => {
                     </div>
                   </a>
                   <a
-                    href='https://github.com/fireclint'
+                    href='https://www.facebook.com/atmartinscaldeiraria'
                     target='_blank'
                     rel='noreferrer'
                   >
@@ -54,17 +57,15 @@ const Contact = () => {
                       <FaFacebook />
                     </div>
                   </a>
-
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                  <a
+                    href='https://www.facebook.com/atmartinscaldeiraria'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                     <FaWhatsapp />
-                  </div>
-                  <Link href='/resume'>
-                    <a>
-                      <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <BsFillPersonLinesFill />
-                      </div>
-                    </a>
-                  </Link>
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
