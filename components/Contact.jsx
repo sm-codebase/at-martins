@@ -11,13 +11,13 @@ const Contact = () => {
   return (
     <div id='contact' className='w-full lg:h-screen'>
       <div className='max-w-[1240px] m-auto px-2 py-16 w-full '>
-        <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
+        <p className='text-xl tracking-widest uppercase text-blue-900'>
           Contato
         </p>
-        <h2 className='py-4'>Solicite um orçamento</h2>
+        <h2 className='py-4 text-blue-900'>Solicite um orçamento</h2>
         <div className='grid lg:grid-cols-5 gap-8'>
           {/* left */}
-          <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
+          <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl text-blue-900 shadow-gray-400 rounded-xl p-4'>
             <div className='lg:p-4 h-full '>
               <div>
                 <Image
@@ -27,13 +27,12 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <h2 className='py-2'>Anderson</h2>
-                <p>Diretor</p>
+                <h2 className='py-2'>Comercial</h2>
                 <p className='py-4'>
-                 19 99664-6372</p>
+                 19 9 9929-2093</p>
                 <h3 className='py-4'>comercial@atmartinscaldeiraria.com.br
                 </h3>
-                <p>Avenida Honorio Orlando Martini, 262</p>
+                <p>Avenida Honorio Orlando Martini, 262 Jd.Samira  Mogi Guaçu-SP</p>
                 <p>CEP-13848-005</p>
               </div>
               <div>
@@ -72,7 +71,7 @@ const Contact = () => {
           </div>
 
           {/* right */}
-          <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
+          <div className='col-span-3 w-full h-auto shadow-xl text-blue-900 shadow-gray-400 rounded-xl lg:p-4'>
             <div className='p-4'>
               <form
                 action='https://getform.io/f/08ebcd37-f5b5-45be-8c13-714f011ce060'
@@ -142,6 +141,9 @@ const Contact = () => {
             </a>
           </Link>
         </div>
+      </div>
+      <div className='flex justify-center py-4'>
+            <p>AT Martins Caldeiraria todos os direitos reservados</p>
       </div>
     </div>
   );
