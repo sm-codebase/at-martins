@@ -29,11 +29,11 @@ const Contact = () => {
               <div>
                 <h2 className='py-2'>Comercial</h2>
                 <p className='py-4'>
-                 19 9 9929-2093</p>
+                 19 3831-2036</p>
                 <h3 className='py-4'>comercial@atmartinscaldeiraria.com.br
                 </h3>
-                <p>Avenida Honorio Orlando Martini, 262 Jd.Samira  Mogi Guaçu-SP</p>
-                <p>CEP-13848-005</p>
+                <p>Avenida Honório Orlando Martini, 262 Jd.Samira  Mogi Guaçu-SP</p>
+                <p>CEP-13841-020</p>
               </div>
               <div>
                 <p className='uppercase pt-8'>Nossas redes sociais</p>
@@ -74,7 +74,7 @@ const Contact = () => {
           <div className='col-span-3 w-full h-auto shadow-xl text-blue-900 shadow-gray-400 rounded-xl lg:p-4'>
             <div className='p-4'>
               <form
-                action='https://getform.io/f/08ebcd37-f5b5-45be-8c13-714f011ce060'
+                action='https://getform.io/f/9e3ce9dd-dcb0-4c44-a074-f8dfc6935aac'
                 method='POST'
                 encType='multipart/form-data'
               >
