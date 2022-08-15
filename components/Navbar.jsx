@@ -54,7 +54,7 @@ const Navbar = () => {
           : 'fixed w-full h-20 z-[100]'
       }
     >
-      <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16 bg-blue-900'>
+      <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16 bg-[#001E47]'>
         <Link href='/'>
           <a>
             <Image
@@ -129,14 +129,14 @@ const Navbar = () => {
       {/* Overlay */}
       <div
         className={
-          nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''
+          nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-white/70' : ''
         }
       >
         {/* Side Drawer Menu */}
         <div
           className={
             nav
-              ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500'
+              ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#001E47] p-10 ease-in duration-500'
               : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
           }
         >
@@ -154,7 +154,7 @@ const Navbar = () => {
               </Link>
               <div
                 onClick={handleNav}
-                className='rounded-full shadow-lg shadow-blue-400 p-3 cursor-pointer'
+                className='rounded-full shadow-lg shadow-blue-400 p-3 cursor-pointer text-white'
               >
                 <AiOutlineClose />
               </div>
@@ -168,36 +168,36 @@ const Navbar = () => {
           <div className='py-4 flex flex-col'>
             <ul className='uppercase'>
               <Link href='/'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                <li onClick={() => setNav(false)} className='py-4 text-sm text-white'>
                   Inicio
                 </li>
               </Link>
               <Link href='/#about'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                <li onClick={() => setNav(false)} className='py-4 text-sm text-white'>
                   Quem Somos
                 </li>
               </Link>
               <Link href='/#skills'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                <li onClick={() => setNav(false)} className='py-4 text-sm text-white'>
                   Nossos Serviços
                 </li>
               </Link>
               <Link href='/#projects'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                <li onClick={() => setNav(false)} className='py-4 text-sm text-white'>
                   Clientes
                 </li>
               </Link>
               <Link href='/#contact'>
-                <li onClick={() => setNav(false)} className='py-4 text-sm'>
+                <li onClick={() => setNav(false)} className='py-4 text-sm text-white'>
                   Contato
                 </li>
               </Link>
             </ul>
             <div className='pt-40'>
-              <p className='uppercase tracking-widest text-[#001E47]'>
+              <p className='uppercase tracking-widest text-white'>
                 Solicite um orçamento
               </p>
-              <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
+              <div className='flex items-center justify-between my-4 w-full sm:w-[80%] text-white'>
                 <a
                   href=''
                   target='_blank'

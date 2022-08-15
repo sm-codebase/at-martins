@@ -84,7 +84,7 @@ const Contact = () => {
                     <input
                       className='border-2 rounded-lg p-3 flex border-gray-300'
                       type='text'
-                      name='name'
+                      name='nome'
                     />
                   </div>
                   <div className='flex flex-col'>
@@ -94,7 +94,7 @@ const Contact = () => {
                     <input
                       className='border-2 rounded-lg p-3 flex border-gray-300'
                       type='text'
-                      name='phone'
+                      name='texto'
                     />
                   </div>
                 </div>
@@ -111,7 +111,7 @@ const Contact = () => {
                   <input
                     className='border-2 rounded-lg p-3 flex border-gray-300'
                     type='text'
-                    name='subject'
+                    name='titulo'
                   />
                 </div>
                 <div className='flex flex-col py-2'>
@@ -119,7 +119,7 @@ const Contact = () => {
                   <textarea
                     className='border-2 rounded-lg p-3 border-gray-300'
                     rows='10'
-                    name='message'
+                    name='menssagem'
                   ></textarea>
                 </div>
                 <button className='w-full p-4 text-gray-100 mt-4'>

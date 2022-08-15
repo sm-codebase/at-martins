@@ -38,7 +38,7 @@ const Main = () => {
       </div>
     </div>
     <div className='flex justify-center'>
-    <button className='bg-blue hover:bg-blue-50 text-white font-bold p-2 px-4'>
+    <button className='bg-#001E47 hover:bg-blue-50 text-white font-bold p-2 px-4'>
     <Link href='https://web.whatsapp.com/'>Solicite um orçamento</Link>
     </button>
     </div>
