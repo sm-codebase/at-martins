@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image'
+import { FaCogs } from 'react-icons/fa';
 
 
 
@@ -14,7 +15,7 @@ const Skills = () => {
                     href=""
                     target="_blank"
                   >
-                    <div className="bg-blue-900 shadow-lg rounded-lg text-center p-8">
+                    <div className="bg-[#001E47] shadow-lg rounded-lg text-center p-8">
                       <Image
                         alt="Slide picture"
                         className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
@@ -28,7 +29,7 @@ const Skills = () => {
                     </div>
                   </a>
                   <a>
-                    <div className="bg-blue-900 shadow-lg rounded-lg text-center p-8 mt-8">
+                    <div className="bg-[#001E47] shadow-lg rounded-lg text-center p-8 mt-8">
                       <Image
                         alt="Slider picture"
                         className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
@@ -45,7 +46,7 @@ const Skills = () => {
                 <div className="my-4 w-full lg:w-6/12 px-4 lg:mt-16">
                   <a
                   >
-                    <div className="bg-blue-900 shadow-lg rounded-lg text-center p-8">
+                    <div className="bg-[#001E47] shadow-lg rounded-lg text-center p-8">
                       <Image
                         alt="Slider picture"
                         className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
@@ -59,7 +60,7 @@ const Skills = () => {
                     </div>
                   </a>
                   <a>
-                    <div className="bg-blue-900 shadow-lg rounded-lg text-center p-8 mt-8">
+                    <div className="bg-[#001E47] shadow-lg rounded-lg text-center p-8 mt-8">
                       <Image
                         alt="Slider picture"
                         className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
@@ -77,18 +78,20 @@ const Skills = () => {
             </div>
 
             <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
-              <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-blue-800">
-                <i className="fas fa-drafting-compass text-xl"></i>
+              <div className="text-white shadow-blue-400 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-[#001E47]">
+              <div className=''>
+                    <h1><FaCogs /></h1>
+              </div>
               </div>
               <h3 className="text-3xl mb-2 font-semibold leading-normal">
                 Como vamos ajudar a sua empresa
               </h3>
-              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
+              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-[#001E47]">
               Criamos e executamos projetos industriais com ampla experiência em
               melhorias, sempre voltadas para aliar otimização de espaço, tempo e
               usabilidade. 
               </p>
-              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
+              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-[#001E47]">
               E garantimos que cada processo ou sistema dentro
               das instalações de nossos clientes mantenha-se dentro de padrões
               e normas especificas de cada setor ou segmento da empresa.
