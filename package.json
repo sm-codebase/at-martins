@@ -9,14 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@mui/material": "^5.10.0",
     "firebase": "^9.8.3",
+    "framer-motion": "^7.1.1",
     "gh-pages": "^4.0.0",
     "next": "12.1.6",
+    "next-image-zoom": "^1.1.7",
     "react": "18.1.0",
     "react-dom": "18.1.0",
-    "react-icons": "^4.4.0"
+    "react-floating-whatsapp": "^4.0.5",
+    "react-icons": "^4.4.0",
+    "simple-react-lightbox": "^3.6.9-0",
+    "web-vitals": "^2.1.4"
   },
   "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.0",
     "autoprefixer": "^10.4.7",
     "eslint": "8.15.0",
     "eslint-config-next": "12.1.6",

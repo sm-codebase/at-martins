@@ -10,11 +10,11 @@ const Projects = () => {
               <div className="w-full lg:w-6/12 px-4">
                 <h2 className="text-4xl font-semibold">Nosso clientes</h2>
                 <p className="text-lg leading-relaxed m-4 text-blueGray-500">
-                  Aqui está a lista de alguns clientes que utilizam alguma de nossas soluções
+                  Aqui está a lista de algumas empresas que utilizam nossas soluções
                 </p>
               </div>
             </div>
-            <div className="flex flex-wrap">
+            <div className="flex flex-wrap justify-center">
               <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
                 <div className="px-6">
                   <Image

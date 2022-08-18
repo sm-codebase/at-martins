@@ -11,13 +11,13 @@ const Contact = () => {
   return (
     <div id='contact' className='w-full lg:h-screen'>
       <div className='max-w-[1240px] m-auto px-2 py-16 w-full '>
-        <p className='text-xl tracking-widest uppercase text-blue-900'>
+        <p className='text-xl tracking-widest uppercase text-[#001E47]'>
           Contato
         </p>
-        <h2 className='py-4 text-blue-900'>Solicite um orçamento</h2>
+        <h2 className='py-4 text-[#001E47]'>Solicite um orçamento</h2>
         <div className='grid lg:grid-cols-5 gap-8'>
           {/* left */}
-          <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl text-blue-900 shadow-gray-400 rounded-xl p-4'>
+          <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl text-[#001E47] shadow-gray-400 rounded-xl p-4'>
             <div className='lg:p-4 h-full '>
               <div>
                 <Image
@@ -28,16 +28,18 @@ const Contact = () => {
               </div>
               <div>
                 <h2 className='py-2'>Comercial</h2>
-                <p className='py-4'>
+                <p className='py-0 font-sans font-bold'>
                  19 3831-2036</p>
-                <h3 className='py-4'>comercial@atmartinscaldeiraria.com.br
+                 <p className='py-0 font-sans font-bold'>
+                 19 99929-2036</p>
+                <h3 className='py-6'>comercial@atmartinscaldeiraria.com.br
                 </h3>
                 <p>Avenida Honório Orlando Martini, 262 Jd.Samira  Mogi Guaçu-SP</p>
                 <p>CEP-13841-020</p>
               </div>
               <div>
                 <p className='uppercase pt-8'>Nossas redes sociais</p>
-                <div className='flex items-center justify-between py-4'>
+                <div className='flex items-center justify-between py-8'>
                   <a
                     href='https://www.instagram.com/atmartinscaldeiraria/'
                     target='_blank'
@@ -71,7 +73,7 @@ const Contact = () => {
           </div>
 
           {/* right */}
-          <div className='col-span-3 w-full h-auto shadow-xl text-blue-900 shadow-gray-400 rounded-xl lg:p-4'>
+          <div className='col-span-3 w-full h-auto shadow-xl text-[#001E47] shadow-gray-400 rounded-xl lg:p-4'>
             <div className='p-4'>
               <form
                 action='https://getform.io/f/9e3ce9dd-dcb0-4c44-a074-f8dfc6935aac'
@@ -122,7 +124,7 @@ const Contact = () => {
                     name='menssagem'
                   ></textarea>
                 </div>
-                <button className='w-full p-4 text-gray-100 mt-4'>
+                <button className='w-full p-4 text-[#001E47] mt-4'>
                   Enviar
                 </button>
               </form>

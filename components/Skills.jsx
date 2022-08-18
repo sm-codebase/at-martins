@@ -43,33 +43,33 @@ const Skills = () => {
                     </div>
                   </a>
                 </div>
-                <div className="my-4 w-full lg:w-6/12 px-4 lg:mt-16">
+                <div className="my-4 w-full lg:w-6/12 px-4">
                   <a
                   >
                     <div className="bg-[#001E47] shadow-lg rounded-lg text-center p-8">
                       <Image
-                        alt="Slider picture"
+                        alt="Slide picture"
                         className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src='/assets/skills/map.png'
-                        width={50}
-                        height={50}
-                      />
-                      <p className="text-lg text-white mt-0 font-semibold">
-                        Atendimento em todo o território nacional
-                      </p>
-                    </div>
-                  </a>
-                  <a>
-                    <div className="bg-[#001E47] shadow-lg rounded-lg text-center p-8 mt-8">
-                      <Image
-                        alt="Slider picture"
-                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src='/assets/skills/welder.png'
+                        src='/assets/skills/settings.png'
                         width={50}
                         height={50}
                       />
                       <p className="text-lg text-white mt-4 font-semibold">
-                        Maquinario de ponta
+                       Atendimento em todo o território nacional
+                      </p>
+                    </div>
+                  </a>
+                  <a>
+                  <div className="bg-[#001E47] shadow-lg rounded-lg text-center p-8 mt-8">
+                      <Image
+                        alt="Slide picture"
+                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
+                        src='/assets/skills/settings.png'
+                        width={50}
+                        height={50}
+                      />
+                      <p className="text-lg text-white mt-4 font-semibold">
+                      Maquinário de ponta
                       </p>
                     </div>
                   </a>
@@ -84,7 +84,7 @@ const Skills = () => {
               </div>
               </div>
               <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                Como vamos ajudar a sua empresa
+                Conheça algumas de nossas soluções aplicadas
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-[#001E47]">
               Criamos e executamos projetos industriais com ampla experiência em
