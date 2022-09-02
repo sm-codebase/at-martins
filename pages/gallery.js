@@ -1,5 +1,4 @@
 import Servicos from "../components/Servicos";
-import Image from "next/image";
 
 export default function gallery() {
     const images = [
