@@ -8,9 +8,10 @@ const Projects = () => {
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center text-center mb-24">
               <div className="w-full lg:w-6/12 px-4">
-                <h2 className="text-4xl font-semibold">Nosso clientes</h2>
+                <h2 className="text-4xl font-semibold">Nossos clientes</h2>
                 <p className="text-lg leading-relaxed m-4 text-blueGray-500">
-                  Aqui está a lista de algumas empresas que utilizam nossas soluções
+                projetos 100% customizados para cada necessidade operacional,
+                levando em conta os objetivos de negócio de cada cliente.
                 </p>
               </div>
             </div>

@@ -2,9 +2,10 @@ import Image from 'next/image';
 import React from 'react'
 import netflixImg from '../public/assets/projects/netflix.jpg';
 import Zoom from "next-image-zoom";
-import { RiRadioButtonFill } from 'react-icons/ri';
-import image1 from '../public/assets/sl-img-2.jpg'
-import Link from 'next/link';
+import image1 from '../public/assets/sl-img-1.jpg'
+import image2 from '../public/assets/sl-img-2.jpg'
+
+
 
 const test = () => {
   return (
@@ -23,7 +24,10 @@ const test = () => {
         <h3>Caldeiraria Industrial/ Manutenção / Projetos</h3>
       </div>
     </div>
-    
+    <div className='justify-center flex'>
+      <h1>Caldeiraria industrial</h1>
+    </div>
+    <div className='bg-[#001E47] h-1/2 w-full sm:mt-24 flex md:flex-row flex-col justify-around items-start'>
       <div className='justify-center flex flex-wrap relative'>
         <div className='flex flex-wrap w-1/3'>
           <div className='w-full p-1 md:p-2'>
@@ -62,6 +66,19 @@ const test = () => {
           </div>
         </div>
       </div>
+      <div className='justify-center flex'>
+      <h1>Manutenção</h1>
+    </div>
+    <div className='flex flex-wrap w-1/3'>
+          <div className='w-full p-1 md:p-2'>
+            <div>
+              <div style={{width: 500}}>
+                <Zoom src={image2} layout={'responsive'}/>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
     </div>
   )
 }

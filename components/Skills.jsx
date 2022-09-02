@@ -69,7 +69,7 @@ const Skills = () => {
                         height={50}
                       />
                       <p className="text-lg text-white mt-4 font-semibold">
-                      Maquinário de ponta
+                      Maquinário de ponta eficiente e sustentável
                       </p>
                     </div>
                   </a>

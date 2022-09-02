@@ -73,7 +73,7 @@ const Navbar = () => {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <div className='rounded-full shadow-lg shadow-blue-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 text-white'>
+                  <div className='rounded-full shadow-blue-200 p-3 cursor-pointer hover:scale-105 ease-in duration-300 bg-white text-[#001E47]'>
                     <FaFacebook />
                   </div>
                 </a>
@@ -82,14 +82,14 @@ const Navbar = () => {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <div className='rounded-full shadow-lg shadow-blue-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 text-white'>
+                  <div className='rounded-full shadow-blue-200 p-3 cursor-pointer hover:scale-105 ease-in duration-300  bg-white text-[#001E47]'>
                     <FaInstagram />
                   </div>
                 </a>
                 <Link href='https://www.whatsapp.com/'>
                   <div
                     onClick={() => setNav(!nav)}
-                    className='rounded-full shadow-lg shadow-blue-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 text-white'
+                    className='rounded-full shadow-blue-200 p-3 cursor-pointer hover:scale-105 ease-in duration-300  bg-white text-[#001E47]'
                   >
                     <FaWhatsapp />
                   </div>
@@ -105,7 +105,7 @@ const Navbar = () => {
               <Link href='/#about'>Quem Somos</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b text-white'>
-              <Link href='/#skills'>Nossos Serviços</Link>
+              <Link href='/gallery'>Nossos Serviços</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b text-white'>
               <Link href='/#projects'>Clientes</Link>
@@ -203,7 +203,7 @@ const Navbar = () => {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <div className='rounded-full shadow-lg shadow-blue-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 text-white'>
+                  <div className='rounded-full shadow-lg p-3 cursor-pointer hover:scale-105 ease-in duration-300 bg-white text-[#001E47]'>
                     <FaFacebook />
                   </div>
                 </a>
@@ -212,14 +212,14 @@ const Navbar = () => {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <div className='rounded-full shadow-lg shadow-blue-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 text-white'>
+                  <div className='rounded-full shadow-lg p-3 cursor-pointer hover:scale-105 ease-in duration-300 bg-white text-[#001E47]'>
                     <FaInstagram />
                   </div>
                 </a>
                 <Link href='https://www.whatsapp.com/'>
                   <div
                     onClick={() => setNav(!nav)}
-                    className='rounded-full shadow-lg shadow-blue-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 text-white'
+                    className='rounded-full shadow-lg  p-3 cursor-pointer hover:scale-105 ease-in duration-300 bg-white text-[#001E47]'
                   >
                     <FaWhatsapp />
                   </div>

@@ -45,7 +45,7 @@ const Contact = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-[#001E47] text-white'>
                       <FaInstagram />
                     </div>
                   </a>
@@ -54,7 +54,7 @@ const Contact = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-[#001E47] text-white'>
                       <FaFacebook />
                     </div>
                   </a>
@@ -63,7 +63,7 @@ const Contact = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-[#001E47] text-white'>
                     <FaWhatsapp />
                     </div>
                   </a>
@@ -124,28 +124,14 @@ const Contact = () => {
                     name='menssagem'
                   ></textarea>
                 </div>
-                <button className='w-full p-4 text-[#001E47] mt-4'>
+                <button className='button-low w-full p-4 text-white mt-4'>
                   Enviar
                 </button>
               </form>
             </div>
           </div>
         </div>
-        <div className='flex justify-center py-12'>
-          <Link href='/'>
-            <a>
-              <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
-                <HiOutlineChevronDoubleUp
-                  className='text-[#001E47]'
-                  size={30}
-                />
-              </div>
-            </a>
-          </Link>
-        </div>
-      </div>
-      <div className='flex justify-center py-4'>
-            <p>AT Martins Caldeiraria todos os direitos reservados</p>
+      
       </div>
     </div>
   );

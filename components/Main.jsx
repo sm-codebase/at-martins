@@ -29,7 +29,8 @@ const Main = () => {
       <div className={styles.wrapper} style={{transform:`translateX(${-100*index}vw)`}}>
         {images.map((img, i) => (
           <div className={styles.imgContainer} key={i}>
-            <Image src={img} alt="" layout="fill" objectFit="cover" />
+            <Image 
+            src={img} alt="" layout="fill" objectFit="cover" />
           </div>
         ))}
       </div>
@@ -37,8 +38,8 @@ const Main = () => {
         <Image src="/assets/arrowr.png" layout="fill" alt="" objectFit="contain"/>
       </div>
     </div>
-    <div className='flex justify-center py-7 bg-[#001E47]'>
-    <button className='text-[#001E47] font-bold p-5 px-4'>
+    <div className='flex justify-center py-7 bg-white'>
+    <button className='text-white font-bold p-5 px-4'>
     <Link href='https://web.whatsapp.com/'>Solicite um orçamento</Link>
     </button>
     </div>
