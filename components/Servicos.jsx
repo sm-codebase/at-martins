@@ -1,7 +1,7 @@
 import Zoom from "next-image-zoom";
 import Image from "next/image";
 import { useState } from "react";
-import VisibilitySensor from "react-visibility-sensor";
+import VisibilitySensor from 'react-visibility-sensor/visibility-sensor'
 
 export default function Servicos({ images }) {
   const [imagesShownArray, setImagesShownArray] = useState(
