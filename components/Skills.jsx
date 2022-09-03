@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image'
-import { FaCogs } from 'react-icons/fa';
+import { FaCogs , FaIndustry , FaUser , FaGlobe , FaCog } from 'react-icons/fa';
 
 
 
@@ -10,64 +10,40 @@ const Skills = () => {
          <div id='skills' className="flex flex-wrap items-center pt-0">
             <div className="w-full md:w-6/12 px-4 mr-auto ml-auto mt-32">
               <div className="justify-center flex flex-wrap relative">
-                <div className="my-4 w-full lg:w-6/12 px-4">
+                <div className="my-4 w-full px-4">
                   <a
                     href=""
                     target="_blank"
                   >
-                    <div className="bg-[#001E47] shadow-lg rounded-lg text-center p-8">
-                      <Image
-                        alt="Slide picture"
-                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src='/assets/skills/settings.png'
-                        width={50}
-                        height={50}
-                      />
+                    <div className="bg-[#001E47] shadow-lg rounded-lg p-4">
+                    <h1 className='text-white'><FaIndustry /></h1>
                       <p className="text-lg text-white mt-4 font-semibold">
                         Experiência na área industrial
                       </p>
                     </div>
                   </a>
                   <a>
-                    <div className="bg-[#001E47] shadow-lg rounded-lg text-center p-8 mt-8">
-                      <Image
-                        alt="Slider picture"
-                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src='/assets/skills/professional.png'
-                        width={50}
-                        height={50}
-                      />
+                    <div className="bg-[#001E47] shadow-lg rounded-lg p-4 mt-4">
+                    <h1 className='text-white'><FaUser /></h1>
                       <p className="text-lg text-white mt-4 font-semibold">
                         Profissionais qualificados
                       </p>
                     </div>
                   </a>
                 </div>
-                <div className="my-4 w-full lg:w-6/12 px-4">
+                <div className="my-4 w-full px-4">
                   <a
                   >
-                    <div className="bg-[#001E47] shadow-lg rounded-lg text-center p-8">
-                      <Image
-                        alt="Slide picture"
-                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src='/assets/skills/settings.png'
-                        width={50}
-                        height={50}
-                      />
+                    <div className="bg-[#001E47] shadow-lg rounded-lg p-4">
+                      <h1 className='text-white'><FaGlobe /></h1>
                       <p className="text-lg text-white mt-4 font-semibold">
                        Atendimento em todo o território nacional
                       </p>
                     </div>
                   </a>
                   <a>
-                  <div className="bg-[#001E47] shadow-lg rounded-lg text-center p-8 mt-8">
-                      <Image
-                        alt="Slide picture"
-                        className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
-                        src='/assets/skills/settings.png'
-                        width={50}
-                        height={50}
-                      />
+                  <div className="bg-[#001E47] shadow-lg rounded-lg p-4 mt-4">
+                  <h1 className='text-white'><FaCog /></h1>
                       <p className="text-lg text-white mt-4 font-semibold">
                       Maquinário de ponta eficiente e sustentável
                       </p>
@@ -97,9 +73,9 @@ const Skills = () => {
               e normas especificas de cada setor ou segmento da empresa.
               </p>
               <a
-                className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150"
+                className="font-bold text-blueGray-700 hover:text-blueGray-500 ease-linear transition-all duration-150" href='gallery'
               >
-                Nossos Projetos{" "}
+                Nossos Projetos
                 <i className="fa fa-angle-double-right ml-1 leading-relaxed"></i>
               </a>
             </div>
