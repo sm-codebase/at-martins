@@ -1,7 +1,7 @@
 import Navbar from '../components/Navbar';
 import '../styles/globals.css';
 import FloatingWhatsApp from 'react-floating-whatsapp'
-
+import Footer from '../components/Footer'
 
 
 function MyApp({ Component, pageProps }) {
@@ -18,6 +18,7 @@ function MyApp({ Component, pageProps }) {
       chatMessage={'Olá, como podemos te ajudar?'} 
       placeholder='Mensagem'
       />
+      <Footer />
     </>
   );
 }
