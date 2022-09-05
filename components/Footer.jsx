@@ -2,13 +2,14 @@ import React from "react";
 import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import Image from 'next/image';
 import NavLogo from '../public/assets/navLogo.svg'
+import Link from "next/link";
 
 
 
 function Footer() {
 	return (
 		<>
-			<div className="bg-[#001E47] h-1/2 w-full sm:mt-24 flex md:flex-row flex-col justify-around items-start p-20">
+			<div className="bg-[#001E47] h-1/2 w-full sm:mt-52 flex md:flex-row flex-col justify-around items-start p-20">
 				<div className="p-5 ">
 					<ul>
 						<a>
@@ -36,25 +37,22 @@ function Footer() {
 						<li className="text-gray-300 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
 							Caldeiraria
 						</li>
-						<li className="text-gray-300 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-							Mutual Funds
-						</li>
 					</ul>
 				</div>
 				<div className="p-5">
 					<ul>
 						<p className="text-white font-bold text-2xl pb-4">Sobre nós</p>
 						<li className="text-gray-300 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-							Quem Somos
+							<Link href='/#about'>Quem Somos </Link>
 						</li>
 						<li className="text-gray-300 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-							Nossos Serviços
+							<Link href='/gallery'>Nossos Serviços</Link>
 						</li>
 						<li className="text-gray-300 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-							Clientes
+							<Link href='/#projects'>Clientes</Link>
 						</li>
 						<li className="text-gray-300 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
-							Contatos
+							<Link href='/#contact'>Contato </Link>
 						</li>
 					</ul>
 				</div>

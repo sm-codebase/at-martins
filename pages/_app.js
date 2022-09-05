@@ -9,6 +9,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Navbar />
       <Component {...pageProps} />
+      
       <FloatingWhatsApp 
       phoneNumber='123456789'
       accountName='AT Martins Caldeiraria'
@@ -19,6 +20,7 @@ function MyApp({ Component, pageProps }) {
       placeholder='Mensagem'
       />
       <Footer />
+      
     </>
   );
 }
