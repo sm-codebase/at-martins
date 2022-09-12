@@ -5,7 +5,7 @@ import '../styles/globals.css';
 import FloatingWhatsApp from 'react-floating-whatsapp'
 import Footer from '../components/Footer'
 import Script from 'next/script';
-import * as ga from '/lib'
+import * as ga from '/lib/google-analytics'
 
 
 
