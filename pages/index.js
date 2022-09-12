@@ -10,8 +10,15 @@ export default function Home() {
     <div>
       <Head>
         <title>AT Martins | Caldeiraria</title>
-        <meta name="description" content="" />
-        <link rel="icon" href="/fav.png" />
+        <meta name="description" content="Desenvolvemos soluções nas áreas de manutenção industrial conforme a necessidade do cliente, seguindo todas as normas e padrões exigidos." />
+        <meta property='og:title' content='AT Martins Caldeiraria' />
+        <meta
+          property='og:description'
+          content='Lanches maravilhosos pertinho de você'
+        />
+        <meta property='og:url' content='http://atmartinscaldeiraria.com.br/' />
+        <meta property='og:type' content='website' />
+        <link rel="icon" href="/logo.svg" />
       </Head>
     <Main />
     <About />
