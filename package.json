@@ -1,10 +1,11 @@
 {
-  "name": "portfolio-nextjs",
+  "name": "atmartins-caldeiraria",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "sitemap": "next-sitemap --next-sitemap-config.js",
     "start": "next start",
     "lint": "next lint"
   },
@@ -17,6 +18,7 @@
     "gh-pages": "^4.0.0",
     "next": "^12.1.6",
     "next-image-zoom": "^1.1.7",
+    "next-sitemap": "^3.1.22",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-floating-whatsapp": "^4.0.5",

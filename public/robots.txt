@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: http://atmartinscaldeiraria.com.br/
+
+# Sitemaps
+Sitemap: http://atmartinscaldeiraria.com.br/sitemap.xml
