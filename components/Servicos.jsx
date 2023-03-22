@@ -32,9 +32,9 @@ export default function Servicos({ images }) {
             <Zoom
               key={index}
               src={imageUrl} 
-              layout='responsive' 
-              width='500' 
-              height='400'
+              layout='responsive'
+              width={'100%'}
+              height={'100%'}
             
             />
             
