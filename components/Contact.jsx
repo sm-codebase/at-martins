@@ -11,13 +11,13 @@ const Contact = () => {
   return (
     <div id='contact' className='w-full lg:h-screen'>
       <div className='max-w-[1240px] m-auto px-2 py-16 w-full '>
-        <p className='text-xl tracking-widest uppercase text-[#001E47]'>
+        <p className='text-xl tracking-widest uppercase text-[#498CC6]'>
           Contato
         </p>
-        <h2 className='py-4 text-[#001E47]'>Solicite um orçamento</h2>
+        <h2 className='py-4 text-[#498CC6]'>Solicite um orçamento</h2>
         <div className='grid lg:grid-cols-5 gap-8'>
           {/* left */}
-          <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl text-[#001E47] shadow-gray-400 rounded-xl p-4'>
+          <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl text-[#498CC6] shadow-gray-400 rounded-xl p-4'>
             <div className='lg:p-4 h-full '>
               <div>
                 <Image
@@ -45,7 +45,7 @@ const Contact = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-[#001E47] text-white'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-[#498CC6] text-white'>
                       <FaInstagram />
                     </div>
                   </a>
@@ -54,7 +54,7 @@ const Contact = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-[#001E47] text-white'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-[#498CC6] text-white'>
                       <FaFacebook />
                     </div>
                   </a>
@@ -63,7 +63,7 @@ const Contact = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-[#001E47] text-white'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 bg-[#498CC6] text-white'>
                     <FaWhatsapp />
                     </div>
                   </a>
@@ -73,7 +73,7 @@ const Contact = () => {
           </div>
 
           {/* right */}
-          <div className='col-span-3 w-full h-auto shadow-xl text-[#001E47] shadow-gray-400 rounded-xl lg:p-4'>
+          <div className='col-span-3 w-full h-auto shadow-xl text-[#498CC6] shadow-gray-400 rounded-xl lg:p-4'>
             <div className='p-4'>
               <form
                 action='https://getform.io/f/9e3ce9dd-dcb0-4c44-a074-f8dfc6935aac'
@@ -121,7 +121,7 @@ const Contact = () => {
                   <textarea
                     className='border-2 rounded-lg p-3 border-gray-300'
                     rows='10'
-                    name='menssagem'
+                    name='mensagem'
                   ></textarea>
                 </div>
                 <button className='button-low w-full p-4 text-white mt-4'>

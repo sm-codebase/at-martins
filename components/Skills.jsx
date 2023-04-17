@@ -15,7 +15,7 @@ const Skills = () => {
                     href=""
                     target="_blank"
                   >
-                    <div className="bg-[#001E47] shadow-lg rounded-lg p-4">
+                    <div className="bg-[#498CC6] shadow-lg rounded-lg p-4">
                     <h1 className='text-white'><FaIndustry /></h1>
                       <p className="text-lg text-white mt-4 font-semibold">
                         Experiência na área industrial
@@ -23,7 +23,7 @@ const Skills = () => {
                     </div>
                   </a>
                   <a>
-                    <div className="bg-[#001E47] shadow-lg rounded-lg p-4 mt-4">
+                    <div className="bg-[#498CC6] shadow-lg rounded-lg p-4 mt-4">
                     <h1 className='text-white'><FaUser /></h1>
                       <p className="text-lg text-white mt-4 font-semibold">
                         Profissionais qualificados
@@ -34,7 +34,7 @@ const Skills = () => {
                 <div className="my-4 w-full px-4">
                   <a
                   >
-                    <div className="bg-[#001E47] shadow-lg rounded-lg p-4">
+                    <div className="bg-[#498CC6] shadow-lg rounded-lg p-4">
                       <h1 className='text-white'><FaGlobe /></h1>
                       <p className="text-lg text-white mt-4 font-semibold">
                        Atendimento em todo o território nacional
@@ -42,7 +42,7 @@ const Skills = () => {
                     </div>
                   </a>
                   <a>
-                  <div className="bg-[#001E47] shadow-lg rounded-lg p-4 mt-4">
+                  <div className="bg-[#498CC6] shadow-lg rounded-lg p-4 mt-4">
                   <h1 className='text-white'><FaCog /></h1>
                       <p className="text-lg text-white mt-4 font-semibold">
                       Maquinário de ponta eficiente e sustentável
@@ -54,7 +54,7 @@ const Skills = () => {
             </div>
 
             <div className="w-full md:w-4/12 px-12 md:px-4 ml-auto mr-auto mt-48">
-              <div className="text-white shadow-blue-400 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-[#001E47]">
+              <div className="text-white shadow-blue-400 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-[#498CC6]">
               <div className=''>
                     <h1><FaCogs /></h1>
               </div>
@@ -62,12 +62,12 @@ const Skills = () => {
               <h3 className="text-3xl mb-2 font-semibold leading-normal">
                 Conheça algumas de nossas soluções aplicadas
               </h3>
-              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-[#001E47]">
+              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-[#498CC6]">
               Criamos e executamos projetos industriais com ampla experiência em
               melhorias, sempre voltadas para aliar otimização de espaço, tempo e
               usabilidade. 
               </p>
-              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-[#001E47]">
+              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-[#498CC6]">
               E garantimos que cada processo ou sistema dentro
               das instalações de nossos clientes mantenha-se dentro de padrões
               e normas especificas de cada setor ou segmento da empresa.

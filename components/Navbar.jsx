@@ -54,7 +54,7 @@ const Navbar = () => {
           : 'fixed w-full h-20 z-[100]'
       }
     >
-      <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16 bg-[#001E47]'>
+      <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16 bg-[#498CC6]'>
         <Link href='/'>
           <a>
             <Image
@@ -73,7 +73,7 @@ const Navbar = () => {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <div className='rounded-full shadow-blue-200 p-3 cursor-pointer hover:scale-105 ease-in duration-300 bg-white text-[#001E47]'>
+                  <div className='rounded-full shadow-blue-200 p-3 cursor-pointer hover:scale-105 ease-in duration-300 bg-white text-[#498CC6]'>
                     <FaFacebook />
                   </div>
                 </a>
@@ -82,14 +82,14 @@ const Navbar = () => {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <div className='rounded-full shadow-blue-200 p-3 cursor-pointer hover:scale-105 ease-in duration-300  bg-white text-[#001E47]'>
+                  <div className='rounded-full shadow-blue-200 p-3 cursor-pointer hover:scale-105 ease-in duration-300  bg-white text-[#498CC6]'>
                     <FaInstagram />
                   </div>
                 </a>
                 <Link href='https://www.whatsapp.com/'>
                   <div
                     onClick={() => setNav(!nav)}
-                    className='rounded-full shadow-blue-200 p-3 cursor-pointer hover:scale-105 ease-in duration-300  bg-white text-[#001E47]'
+                    className='rounded-full shadow-blue-200 p-3 cursor-pointer hover:scale-105 ease-in duration-300  bg-white text-[#498CC6]'
                   >
                     <FaWhatsapp />
                   </div>
@@ -136,7 +136,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#001E47] p-10 ease-in duration-500'
+              ? ' fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#498CC6  p-10 ease-in duration-500'
               : 'fixed left-[-100%] top-0 p-10 ease-in duration-500'
           }
         >
@@ -203,7 +203,7 @@ const Navbar = () => {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <div className='rounded-full shadow-lg p-3 cursor-pointer hover:scale-105 ease-in duration-300 bg-white text-[#001E47]'>
+                  <div className='rounded-full shadow-lg p-3 cursor-pointer hover:scale-105 ease-in duration-300 bg-white text-[#498CC6 '>
                     <FaFacebook />
                   </div>
                 </a>
@@ -212,14 +212,14 @@ const Navbar = () => {
                   target='_blank'
                   rel='noreferrer'
                 >
-                  <div className='rounded-full shadow-lg p-3 cursor-pointer hover:scale-105 ease-in duration-300 bg-white text-[#001E47]'>
+                  <div className='rounded-full shadow-lg p-3 cursor-pointer hover:scale-105 ease-in duration-300 bg-white text-[#498CC6 '>
                     <FaInstagram />
                   </div>
                 </a>
                 <Link href='https://www.whatsapp.com/'>
                   <div
                     onClick={() => setNav(!nav)}
-                    className='rounded-full shadow-lg  p-3 cursor-pointer hover:scale-105 ease-in duration-300 bg-white text-[#001E47]'
+                    className='rounded-full shadow-lg  p-3 cursor-pointer hover:scale-105 ease-in duration-300 bg-white text-[#498CC6 '
                   >
                     <FaWhatsapp />
                   </div>

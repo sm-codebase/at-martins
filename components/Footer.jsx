@@ -9,7 +9,7 @@ import Link from "next/link";
 function Footer() {
 	return (
 		<>
-			<div className="bg-[#001E47] h-1/2 w-full sm:mt-52 flex md:flex-row flex-col justify-around items-start p-20">
+			<div className="bg-[#498CC6] h-1/2 w-full sm:mt-52 flex md:flex-row flex-col justify-around items-start p-20">
 				<div className="p-5 ">
 					<ul>
 						<a>
