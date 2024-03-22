@@ -37,6 +37,9 @@ function Footer() {
 						<li className="text-gray-300 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
 							Caldeiraria
 						</li>
+						<li className="text-gray-300 text-md pb-2 font-semibold hover:text-blue-600 cursor-pointer">
+							Munck
+						</li>
 					</ul>
 				</div>
 				<div className="p-5">
